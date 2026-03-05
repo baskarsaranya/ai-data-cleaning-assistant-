@@ -1,0 +1,55 @@
+Week 1 Day 1 - Setup complete. Python 3.11.7. All libraries installed.
+Week 1 Day 2 - Dataset downloaded. Folder structure created. File: supply_chain_data.csv
+Week 1 Day 3 - Data loaded. 24 columns confirmed. Dtypes look clean. Two lead time columns flagged.
+Week 1 Day 4 - Missing values: 0. Duplicates: 0. Dtypes clean. 
+               Two lead time columns confirmed different - rename in cleaning.
+               Stock levels min is 0 - flag as potential stockout.
+Week 1 Day 5 - Categorical columns explored. SKU flagged as ID column.
+               Unknown in Customer demographics = treat as missing.
+               36% inspection failure rate flagged.
+               Week 1 fully complete. Ready for Week 2.
+Week 2 Day 6 - load_data() function built with full error handling.
+               Handles missing files, wrong formats, empty files.
+               Both error and success paths tested and working.
+Week 2 Day 7 - profile_data() function built and working.
+               Catches ID columns, suspicious values, zero values.
+               Categorical details showing correctly.
+               SKU correctly flagged and skipped in details.
+Week 2 Day 8 - suggest_fixes() function built and working.
+               3 fixes applied: Unknown replaced, SKU dropped, 
+               zero stock replaced with median 48.00.
+               Dataset now 100 rows x 23 columns.
+               Assistant is now interactive!
+Week 2 Day 9 - standardize_column_names() built and working.
+               fix_datatypes() built with 90% threshold logic.
+               All 24 columns renamed cleanly.
+               Lead times renamed to supplier_lead_time and customer_lead_time.
+               Dtypes all correct - no changes needed on this dataset.
+Week 3 Day 10 - Full pipeline complete and working!
+                pipeline.py created in src folder.
+                All 7 steps running automatically.
+                Cleaned file saved to outputs folder.
+                run_pipeline() works with single function call.
+Week 4 Day 11 - Visualization layer built and working.
+                3 auto charts: numeric distributions, 
+                categorical bars, correlation heatmap.
+                All charts saved to outputs folder.
+                Key finding: 36% inspection failure rate visible.
+                Price vs manufacturing_lead_time: -0.30 correlation.
+Week 4 Day 12 - Supply chain insights layer complete.
+                9 issues auto-detected across supplier, quality, shipping.
+                CRITICAL: 36% inspection failure flagged automatically.
+                Route C flagged as expensive and underutilised.
+                Supplier 5 highest defect rate, Supplier 4 slowest.
+                4 charts saved to outputs folder.
+Week 4 Day 13 - Streamlit app fully working!
+                All 3 pages working: Upload & Clean, Visualizations, Insights.
+                Supplier, Quality, Shipping tabs all displaying correctly.
+                MVP is functional end to end!
+Week 4 Day 14 - All 6 tests passed. Summary tab bug fixed.
+Week 4 Day 15 - MVP Complete! requirements.txt and README created.
+
+MVP COMPLETE ✅
+Total days: 15
+Total time: ~30 hours
+Lines of code: ~600+

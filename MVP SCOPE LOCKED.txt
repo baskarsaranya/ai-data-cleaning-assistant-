@@ -1,0 +1,11 @@
+MVP SCOPE LOCKED:
+- Data cleaning pipeline ✅
+- Auto visualizations ✅  
+- Supply chain insights ✅
+- Streamlit UI ⬜ (next)
+
+VERSION 2 BACKLOG:
+- Smart column detection
+- Column mapping for any dataset
+- Chat layer for specific questions
+- PDF export
