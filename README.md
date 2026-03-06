@@ -6,8 +6,33 @@ Date: March 2026
 
 WHAT IT DOES:
 -------------
-Automatically cleans supply chain CSV data and generates
-insights across supplier performance, quality and shipping.
+
+## Overview
+AI-powered assistant that automatically profiles datasets, fixes data quality issues 
+and generates insights across supplier performance, quality and shipping.
+
+## Features
+• Automatic dataset profiling  
+• Missing value detection and correction  
+• Datatype correction  
+• Column standardization  
+• Data visualization  
+• Operational insight detection  
+• Streamlit interactive interface  
+
+## Tech Stack
+Python  
+Pandas  
+Matplotlib  
+Streamlit  
+
+
+## Demo
+(screenshots)
+
+## Installation
+pip install -r requirements.txt
+
 
 HOW TO RUN:
 -----------
